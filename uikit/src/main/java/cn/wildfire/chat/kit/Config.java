@@ -68,14 +68,14 @@ public class Config {
      * <p>
      * 优先使用本地安装的软件打开文件进行预览，如果本地没有能够支持打开该类型的文件时，使用在线预览
      */
-    public static String ONLINE_FILE_PREVIEW_URL = "https://app.wildfirechat.net/preview/onlinePreview?url=";
+    public static String ONLINE_FILE_PREVIEW_URL = "";
 
     /**
      * 工作台页面地址
      * <p>
      * 如果不想显示工作台，置为 null 即可
      */
-    public static String WORKSPACE_URL = "https://open.wildfirechat.cn/work.html";
+    public static String WORKSPACE_URL = "";
 
     /**
      * 语音识别服务地址，配置之后，长按语音消息，会显示转文字按钮。
@@ -128,7 +128,7 @@ public class Config {
     public static int AUDIO_MESSAGE_AMPLIFICATION_FACTOR = 3;
 
     // 是否开启水印功能
-    public static boolean ENABLE_WATER_MARK = true;
+    public static boolean ENABLE_WATER_MARK = false;
 
     // 用户协议地址
     public final static String USER_AGREEMENT_URL = "https://www.wildfirechat.net/wildfirechat_user_agreement.html";
